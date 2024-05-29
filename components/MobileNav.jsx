@@ -1,6 +1,8 @@
 "use client";
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { Switch } from "@/components/ui/switch";
+
 import { usePathname } from "next/navigation";
 import Link from "next/link";
 import { CiMenuFries } from "react-icons/ci";
@@ -62,6 +64,14 @@ const MobileNav = () => {
             );
           })}
         </nav>
+        <div className="absolute bottom-0 left-0 right-0 flex flex-row justify-center items-center gap-8 mb-8">
+          <div className="flex justify-center items-center">
+            <h1 className="text-xl capitalize hover:text-accent transition-all">
+              Theme
+            </h1>
+          </div>
+          <Switch />
+        </div>
       </SheetContent>
     </Sheet>
   );
