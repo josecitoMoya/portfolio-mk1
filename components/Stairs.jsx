@@ -5,13 +5,13 @@ import { motion } from "framer-motion";
 //variantes
 const stairAnimation = {
   initial: {
-    top: "0%",
+    left: "0%",
   },
   animate: {
-    top: "100%",
+    left: "100%",
   },
   exit: {
-    top: ["100%", "0%"],
+    left: ["100%", "0%"],
   },
 };
 
