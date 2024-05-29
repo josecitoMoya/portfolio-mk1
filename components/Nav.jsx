@@ -7,23 +7,23 @@ import { usePathname } from "next/navigation";
 
 const links = [
   {
-    name: "home",
+    name: "Inicio",
     path: "/",
   },
   {
-    name: "services",
+    name: "Servicios",
     path: "/services",
   },
   {
-    name: "resume",
+    name: "Quien soy",
     path: "/resume",
   },
   {
-    name: "work",
+    name: "Proyectos",
     path: "/work",
   },
   {
-    name: "contact",
+    name: "Contacto",
     path: "/contact",
   },
 ];

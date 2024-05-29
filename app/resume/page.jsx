@@ -26,24 +26,24 @@ const about = {
     "Mis experiencias me han permitido desarrollar habilidades críticas como la gestión de equipos, la atención al cliente y la capacidad de liderar proyectos complejos. Estoy en constante interés en aprender más y seguir creciendo profesionalmente. Comparto mis datos de contacto para que podamos trabajar juntos y explorar nuevas oportunidades. No dudes en ponerte en contacto conmigo para discutir cómo puedo contribuir a tu equipo.",
   info: [
     {
-      fieldName: "name",
+      fieldName: "Nombre",
       fieldValue: "Jose Moya",
     },
     {
-      fieldName: "Nationality",
-      fieldValue: "Argentinian",
+      fieldName: "Nacionalidad",
+      fieldValue: "Argentino",
     },
     {
-      fieldName: "Phone",
-      fieldValue: "(+54) 9387 6109748",
+      fieldName: "Telefono",
+      fieldValue: "+54 9 387 6109748",
     },
     {
       fieldName: "email",
       fieldValue: "jose_moya@live.com.ar",
     },
     {
-      fieldName: "Laguages",
-      fieldValue: "Spanish, English",
+      fieldName: "Idiomas",
+      fieldValue: "Español, Ingles",
     },
   ],
 };
