@@ -10,10 +10,15 @@ const Home = () => {
     <section className="h-full">
       <div>
         <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen"
-          fill="white"
+          className="-top-35 -left-28 md:left-32 md:top-1 h-screen w-screen"
+          fill="lightblue"
         />
-        <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="green" />
+        <Spotlight className="top-22 left-28 h-screen w-screen" fill="white" />
+
+        <Spotlight
+          className="-top-10 -left-28 md:left-1 md:top-60 h-screen w-screen"
+          fill="lightblue"
+        />
       </div>
       <div className="container mx-auto h-full">
         <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">

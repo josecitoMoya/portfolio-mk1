@@ -70,7 +70,7 @@ const MobileNav = () => {
               Theme
             </h1>
           </div>
-          <Switch />
+          {/* <Switch /> */}
         </div>
       </SheetContent>
     </Sheet>
