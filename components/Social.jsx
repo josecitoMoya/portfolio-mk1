@@ -1,5 +1,7 @@
 import Link from "next/link";
-import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+
+import { CiMail } from "react-icons/ci";
 
 const socials = [
   {
@@ -9,6 +11,14 @@ const socials = [
   {
     icon: <FaLinkedinIn />,
     path: "https://www.linkedin.com/in/jbmoya/",
+  },
+  {
+    icon: <FaWhatsapp />,
+    path: "https://api.whatsapp.com/send?phone=543876109748&text=%C2%A1Hola!%20Vi%20tu%20portfolio%20y%20quisiera%20ponerme%20en%20contacto%20con%20vos.",
+  },
+  {
+    icon: <CiMail />,
+    path: "mailto:jose_moya@live.com.ar?subject=Hola,%20trabajemos%20juntos?",
   },
 ];
 

@@ -8,7 +8,7 @@ const stats = [
     text: "Horas de cursado",
   },
   {
-    num: 11,
+    num: 10,
     text: "Tecnologias aprendidas",
   },
 ];

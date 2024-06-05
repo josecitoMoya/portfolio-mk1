@@ -2,6 +2,7 @@
 
 import Home from "@/app/page";
 import { Londrina_Sketch } from "next/font/google";
+
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 
@@ -15,7 +16,7 @@ const links = [
     path: "/services",
   },
   {
-    name: "Quien soy",
+    name: "Acerca de mi",
     path: "/resume",
   },
   {
