@@ -6,28 +6,30 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: "01",
-    title: "Desarrollo Web Frontend",
-    description: "Frameworks y Librerías: Uso de React",
+    title: "Desarrollo Frontend",
+    description:
+      "Creación de interfaces de usuario interactivas y dinámicas utilizando tecnologías modernas.",
     href: "",
   },
   {
     num: "02",
-    title: "Desarrollo Web Backend",
+    title: "Desarrollo Backend",
     description:
-      "Configuración y gestión de bases de datos SQL y NoSQL (PostgreSQL, MongoDB)",
+      "Construcción de servidores robustos y escalables para soportar aplicaciones web.",
     href: "",
   },
   {
     num: "04",
     title: "E-commerce    ",
     description:
-      "Creación de tiendas en línea utilizando plataformas como WooCommerce",
+      "Desarrollo de plataformas de comercio electrónico eficientes y seguras.",
     href: "",
   },
   {
     num: "05",
-    title: "Aplicaciones de Una Sola Página (SPA)",
-    description: "Creación de SPAs utilizando frameworks como React",
+    title: "Singlepage Aplication",
+    description:
+      "Creación de aplicaciones de página única rápidas y eficientes para mejorar la experiencia del usuario.",
     href: "",
   },
 ];

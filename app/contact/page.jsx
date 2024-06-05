@@ -17,6 +17,9 @@ import {
 } from "@radix-ui/react-select";
 
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { useState } from "react";
+import emailjs from "@emailjs/browser";
+import { useInput } from "@/lib/useInput";
 
 const info = [
   {
@@ -37,6 +40,29 @@ const info = [
 ];
 
 const Contact = () => {
+  const [error, setError] = useState(false);
+  const [success, setSuccess] = useState(false);
+
+  const name = useInput();
+  const lastName = useInput();
+  const email = useInput();
+  const phone = useInput();
+  const message = useInput();
+
+  const sendMail = async (e) => {
+    e.preventDefault();
+
+    const mailData = {
+      name: name.value,
+      lastName: lastName.value,
+      email: email.value,
+      phone: phone.value,
+      message: message.value,
+    };
+
+    console.log(mailData, "SOY LA INFO DEL MAIL");
+  };
+
   return (
     <motion.section
       initial={{ opacity: 0 }}
@@ -50,20 +76,27 @@ const Contact = () => {
         <div className="flex flex-col xl:flex-row gap-[30px]">
           {/* formulario */}
           <div className="xl:w-[54%] order-2 xl:order-none">
-            <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+            <motion.form
+              className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
+              onSubmit={sendMail}
+            >
               <h3 className="text-4xl text-accent ">Trabajemos juntos!</h3>
-              <p className="text-white/60">
+              {/* <p className="text-white/60">
                 No se que podria poner aqui, ya voy a inventar algo... banca!
-              </p>
+              </p> */}
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                <Input type="firstname" placeholder="firstname" />
-                <Input type="lastname" placeholder="lastname" />
-                <Input type="email" placeholder="email" />
-                <Input type="phone" placeholder="phone" />
+                <Input type="text" placeholder="Nombre" name="user_name" />
+                <Input
+                  type="text"
+                  placeholder="Apellido"
+                  lastName="last_name"
+                />
+                <Input type="email" placeholder="email" email="user_email" />
+                <Input type="number" placeholder="Telefono" {...phone} />
               </div>
               {/* selecciones */}
-              <Select>
+              {/* <Select>
                 <SelectTrigger className="w-full">
                   <SelectValue placeholder="Select a service" />
                 </SelectTrigger>
@@ -75,16 +108,19 @@ const Contact = () => {
                     <SelectItem value="mst">Seguros</SelectItem>
                   </SelectGroup>
                 </SelectContent>
-              </Select>
+              </Select> */}
               {/* Area de texto */}
               <Textarea
+                {...message}
                 className="h-[200px]"
                 placeholder="Deja tu mensaje aqui"
               />
-              <Button size="md" className="max-w-40 ">
-                Send Message
+              <Button size="md" className="max-w-40">
+                Enviar
               </Button>
-            </form>
+              {error && "Error"}
+              {success && "Success"}
+            </motion.form>
           </div>
           {/* info */}
           <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
