@@ -11,16 +11,16 @@ const Home = () => {
       <div>
         <Spotlight
           className="-top-35 -left-28 md:left-60 md:top-50 h-screen w-screen"
-          fill="lightblue"
+          fill="#75AADB"
         />
         <Spotlight
           className="top-22 left-18 md:left-30 md:top-50 h-screen w-screen"
-          fill="white"
+          fill="#FFFFFF"
         />
 
         <Spotlight
           className="-top-10 -left-28 md:left-1 md:top-60 h-screen w-screen"
-          fill="lightblue"
+          fill="#75AADB"
         />
       </div>
       <div className="container mx-auto h-full">
