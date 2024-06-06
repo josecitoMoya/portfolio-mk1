@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Entendido, aquí tienes el README actualizado con tus datos y las correcciones:
 
-## Getting Started
+---
 
-First, run the development server:
+# Portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+Este es el repositorio de mi portfolio personal, desarrollado utilizando Next.js 14, Tailwind CSS, Framer Motion, Shadcn/UI y Aceternity UI. El objetivo de este proyecto es mostrar mis habilidades y proyectos de una manera moderna y atractiva.
+
+## Acerca de mí
+
+Hola, soy Jose Moya, Fullstack Developer Trainee. Recientemente completé un bootcamp en Plataforma5, donde durante más de 800 horas practiqué y aprendí tecnologías modernas. Estoy constantemente actualizándome y mejorando mis habilidades para estar al día con las últimas tendencias y mejores prácticas en el desarrollo de software.
+
+### Mis habilidades
+
+Durante más de 800 horas, he estado aprendiendo y practicando las siguientes tecnologías:
+
+- **JavaScript**
+- **React.js**
+- **Node.js**
+- **TypeScript**
+- **Tailwind CSS**
+- **Next.js**
+- **MongoDB**
+- **PostgreSQL**
+- **Redux**
+- **Express**
+- **Git**
+
+### Contacto
+
+Mis experiencias me han permitido desarrollar habilidades críticas como la gestión de equipos, la atención al cliente y la capacidad de liderar proyectos complejos. Estoy en constante interés en aprender más y seguir creciendo profesionalmente. Comparto mis datos de contacto para que podamos trabajar juntos y explorar nuevas oportunidades. No dudes en ponerte en contacto conmigo para discutir cómo puedo contribuir a tu equipo.
+
+- **Nombre**: Jose Moya
+- **Nacionalidad**: Argentino
+- **Teléfono**: +549 3876109748
+- **Email**: [jose_moya@live.com.ar](mailto:jose_moya@live.com.ar)
+- **Idiomas**: Español, Inglés
+
+## Tecnologías Utilizadas
+
+- **Next.js 14**: Framework de React para el desarrollo de aplicaciones web y sitios estáticos.
+- **Tailwind CSS**: Framework de CSS para un diseño rápido y eficiente con clases utilitarias.
+- **Framer Motion**: Librería para animaciones en React.
+- **Shadcn/UI**: Colección de componentes UI personalizables.
+- **Aceternity UI**: Librería de componentes UI.
+
+## Características
+
+- **Diseño Responsivo**: Adaptado para verse bien en cualquier dispositivo.
+- **Animaciones Suaves**: Utilizando Framer Motion para transiciones y animaciones.
+- **Componentes Personalizados**: Gracias a Shadcn/UI y Aceternity UI.
+- **Optimización**: Carga rápida y eficiente de los recursos.
+
+## Instalación
+
+Para ejecutar este proyecto localmente, sigue los siguientes pasos:
+
+1. Clona este repositorio:
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repositorio.git
+   ```
+2. Navega al directorio del proyecto:
+   ```bash
+   cd tu-repositorio
+   ```
+3. Instala las dependencias:
+   ```bash
+   npm install
+   ```
+4. Ejecuta el servidor de desarrollo:
+   ```bash
+   npm run dev
+   ```
+
+## Uso
+
+Una vez que el servidor de desarrollo esté en funcionamiento, puedes ver tu portfolio en `http://localhost:3000`. Realiza cambios en los archivos según sea necesario y el sitio se actualizará automáticamente.
+
+## Estructura del Proyecto
+
+```plaintext
+.
+├── components     # Componentes reutilizables
+├── app            # Páginas del sitio
+├── public         # Recursos públicos como imágenes y fuentes
+├── styles         # Archivos de estilos
+├── utils          # Utilidades y helpers
+└── README.md      # Este archivo
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Contribuciones
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Las contribuciones son bienvenidas. Si tienes alguna idea o encuentras algún problema, por favor abre un issue o envía un pull request.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Contacto
 
-## Learn More
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [jose_moya@live.com.ar](mailto:jose_moya@live.com.ar) o [LinkedIn](https://www.linkedin.com/in/jbmoya/).
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Espero que este README cumpla con tus expectativas. Si necesitas agregar o cambiar algo más, no dudes en decírmelo.

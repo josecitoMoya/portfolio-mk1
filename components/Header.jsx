@@ -1,6 +1,7 @@
 "use client";
 
 import Link from "next/link";
+//Para el theme
 import { Button } from "./ui/button";
 import { Switch } from "@/components/ui/switch";
 
@@ -29,6 +30,7 @@ const Header = () => {
         {/* Desktop nav & boton para contratar*/}
         <div className="hidden xl:flex items-center gap-8">
           <Nav />
+          {/* ↓ Aqui van los switch */}
           {/* <Link href="/contact"> */}
           {/* <Button>Hire me</Button> */}
           {/* <Switch onClick={handleChange}>Hire me</Switch> */}

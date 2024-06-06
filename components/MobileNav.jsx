@@ -2,6 +2,7 @@
 
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Switch } from "@/components/ui/switch";
+// ↑ Esto va a ser para el theme
 
 import { usePathname } from "next/navigation";
 import Link from "next/link";
@@ -70,6 +71,7 @@ const MobileNav = () => {
               Theme
             </h1>
           </div>
+          {/* Aqui quiero incorporar un switch para el tema oscuro / claro */}
           {/* <Switch /> */}
         </div>
       </SheetContent>

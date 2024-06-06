@@ -6,20 +6,9 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 
-import {
-  Select,
-  SelectContent,
-  SelectGroup,
-  SelectItem,
-  SelectLabel,
-  SelectTrigger,
-  SelectValue,
-} from "@radix-ui/react-select";
-
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
-import { useInput } from "@/lib/useInput";
 
 const info = [
   {
@@ -85,9 +74,6 @@ const Contact = () => {
               onSubmit={sendMail}
             >
               <h3 className="text-4xl text-accent ">Trabajemos juntos!</h3>
-              {/* <p className="text-white/60">
-                No se que podria poner aqui, ya voy a inventar algo... banca!
-              </p> */}
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="text" placeholder="Nombre" name="user_name" />
@@ -95,20 +81,6 @@ const Contact = () => {
                 <Input type="email" placeholder="email" name="user_email" />
                 <Input type="number" placeholder="Telefono" name="phone" />
               </div>
-              {/* selecciones */}
-              {/* <Select>
-                <SelectTrigger className="w-full">
-                  <SelectValue placeholder="Select a service" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectGroup>
-                    <SelectLabel>Select a Service</SelectLabel>
-                    <SelectItem value="est"> Web Development</SelectItem>
-                    <SelectItem value="cst">Diseños</SelectItem>
-                    <SelectItem value="mst">Seguros</SelectItem>
-                  </SelectGroup>
-                </SelectContent>
-              </Select> */}
               {/* Area de texto */}
               <Textarea
                 name="message"
