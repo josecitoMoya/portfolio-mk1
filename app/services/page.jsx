@@ -9,28 +9,28 @@ const services = [
     title: "Desarrollo Frontend",
     description:
       "Creación de interfaces de usuario interactivas y dinámicas utilizando tecnologías modernas.",
-    href: "",
+    href: "/contact",
   },
   {
     num: "02",
     title: "Desarrollo Backend",
     description:
       "Construcción de servidores robustos y escalables para soportar aplicaciones web.",
-    href: "",
+    href: "/contact",
   },
   {
     num: "04",
     title: "E-commerce    ",
     description:
       "Desarrollo de plataformas de comercio electrónico eficientes y seguras.",
-    href: "",
+    href: "/contact",
   },
   {
     num: "05",
-    title: "Singlepage Aplication",
+    title: "Single Page Aplication",
     description:
       "Creación de aplicaciones de página única rápidas y eficientes para mejorar la experiencia del usuario.",
-    href: "",
+    href: "/contact",
   },
 ];
 

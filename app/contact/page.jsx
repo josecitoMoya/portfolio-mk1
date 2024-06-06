@@ -17,7 +17,7 @@ import {
 } from "@radix-ui/react-select";
 
 import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
-import { useState } from "react";
+import { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { useInput } from "@/lib/useInput";
 
@@ -43,24 +43,27 @@ const Contact = () => {
   const [error, setError] = useState(false);
   const [success, setSuccess] = useState(false);
 
-  const name = useInput();
-  const lastName = useInput();
-  const email = useInput();
-  const phone = useInput();
-  const message = useInput();
+  const form = useRef();
 
   const sendMail = async (e) => {
     e.preventDefault();
 
-    const mailData = {
-      name: name.value,
-      lastName: lastName.value,
-      email: email.value,
-      phone: phone.value,
-      message: message.value,
-    };
+    try {
+      const sent = await emailjs.sendForm(
+        "service_8ru3r3s",
+        "template_8g9tohf",
+        form.current,
+        "7bRGUa7sertZZ4oaP"
+      );
 
-    console.log(mailData, "SOY LA INFO DEL MAIL");
+      sent && setSuccess(true);
+
+      console.log(sent.text);
+    } catch (error) {
+      setError(error);
+
+      console.log(error);
+    }
   };
 
   return (
@@ -77,6 +80,7 @@ const Contact = () => {
           {/* formulario */}
           <div className="xl:w-[54%] order-2 xl:order-none">
             <motion.form
+              ref={form}
               className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl"
               onSubmit={sendMail}
             >
@@ -87,13 +91,9 @@ const Contact = () => {
               {/* input */}
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <Input type="text" placeholder="Nombre" name="user_name" />
-                <Input
-                  type="text"
-                  placeholder="Apellido"
-                  lastName="last_name"
-                />
-                <Input type="email" placeholder="email" email="user_email" />
-                <Input type="number" placeholder="Telefono" {...phone} />
+                <Input type="text" placeholder="Apellido" name="last_name" />
+                <Input type="email" placeholder="email" name="user_email" />
+                <Input type="number" placeholder="Telefono" name="phone" />
               </div>
               {/* selecciones */}
               {/* <Select>
@@ -111,15 +111,17 @@ const Contact = () => {
               </Select> */}
               {/* Area de texto */}
               <Textarea
-                {...message}
+                name="message"
                 className="h-[200px]"
-                placeholder="Deja tu mensaje aqui"
+                placeholder="Dejame tu mensaje, en cuanto pueda me voy a comunicar. Muchas gracias!"
               />
               <Button size="md" className="max-w-40">
                 Enviar
               </Button>
-              {error && "Error"}
-              {success && "Success"}
+              <div>
+                {error && "Error"}
+                {success && "Mensaje enviado"}
+              </div>
             </motion.form>
           </div>
           {/* info */}
