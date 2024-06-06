@@ -25,7 +25,7 @@ const projects = [
     category: "Fullstack",
     title: "TMDB",
     description:
-      "My repository is a project built upon The Movie Database (TMDB) API, leveraging its extensive collection of movie and TV show data. By utilizing the TMDB API, the repository allows users to make requests for detailed information about films, including cast and crew details, release dates, plot summaries, and ratings. The integration with the TMDB API enhances the repository's functionality, providing a seamless way for users to access and interact with a wealth of entertainment content.",
+      "Es un proyecto construido sobre la API de The Movie Database (TMDB), aprovechando su extensa colección de datos de películas y programas de televisión. Al utilizar la API de TMDB, el repositorio permite a los usuarios hacer solicitudes para obtener información detallada sobre películas, incluyendo detalles del elenco y equipo, fechas de lanzamiento, resúmenes de la trama y calificaciones. La integración con la API de TMDB mejora la funcionalidad del repositorio, proporcionando una manera perfecta para que los usuarios accedan e interactúen con una gran cantidad de contenido de entretenimiento.",
     stack: [
       { name: "Javascript" },
       { name: "Postgres" },
@@ -42,7 +42,7 @@ const projects = [
     category: "Fullstack",
     title: "miPark",
     description:
-      "miPark is a repository that introduces a novel business model inspired by the likes of Booking, but with a focus on private parking spaces. This platform aims to connect users with private parking providers, offering a seamless and efficient way to book exclusive parking spots. Users can browse available parking spaces, view details such as location, pricing, and amenities, and make reservations through the miPark repository. The system facilitates a convenient solution for individuals seeking secure and personalized parking options, creating a win-win scenario for both users and parking space owners.",
+      "miPark es un proyecto que introduce un modelo de negocio novedoso inspirado en plataformas como Booking, pero con un enfoque en espacios de estacionamiento privados. Esta plataforma tiene como objetivo conectar a los usuarios con proveedores de estacionamiento privado, ofreciendo una manera eficiente y sin problemas de reservar lugares de estacionamiento exclusivos. Los usuarios pueden explorar los espacios de estacionamiento disponibles, ver detalles como ubicación, precios y servicios, y hacer reservaciones a través del repositorio miPark. El sistema facilita una solución conveniente para personas que buscan opciones de estacionamiento seguras y personalizadas, creando una situación beneficiosa tanto para los usuarios como para los propietarios de los espacios de estacionamiento.",
     stack: [
       { name: "Javascript" },
       { name: "Postgres" },
@@ -60,7 +60,7 @@ const projects = [
     category: "Fullstack",
     title: "Bluehouse",
     description:
-      "This repository represents an e-commerce solution tailored for BLUEHOUSE, providing a robust online platform for the company's products and services. Leveraging modern e-commerce principles, the repository offers a user-friendly interface for customers to browse, select, and purchase items. Key features include secure payment gateways, order tracking, and a customizable shopping cart. The BLUEHOUSE e-commerce repository aims to enhance the overall online shopping experience for customers, while also providing the company with a streamlined platform to manage inventory, process orders, and cultivate a digital presence.",
+      "Este proyecto representa una solución de comercio electrónico diseñada para BLUEHOUSE, proporcionando una robusta plataforma en línea para los productos y servicios de la empresa. Aprovechando los principios modernos de comercio electrónico, el repositorio ofrece una interfaz amigable para los clientes, permitiéndoles explorar, seleccionar y comprar artículos. Las características clave incluyen pasarelas de pago seguras, seguimiento de pedidos y un carrito de compras personalizable. El repositorio de comercio electrónico de BLUEHOUSE tiene como objetivo mejorar la experiencia general de compra en línea para los clientes, al mismo tiempo que proporciona a la empresa una plataforma optimizada para gestionar el inventario, procesar pedidos y cultivar una presencia digital.",
     stack: [
       { name: "Javascript" },
       { name: "Postgres" },
@@ -79,7 +79,7 @@ const projects = [
     category: "Backend",
     title: "Fast-Delivery",
     description:
-      "This repository encapsulates the Fast Delivery application, a solution tailored for a delivery-focused company. Fast Delivery streamlines the delivery process, offering a user-friendly interface for both customers and delivery personnel. The repository integrates key features such as real-time order tracking, efficient route optimization, and secure transaction processing. With a focus on enhancing the speed and reliability of deliveries, Fast Delivery provides a comprehensive toolset for the company to manage orders, monitor delivery progress, and optimize logistics. This repository is designed to elevate the efficiency and effectiveness of the delivery services provided by the company",
+      "Este proyecto encapsula la aplicación Fast Delivery, una solución diseñada para una empresa de entregas. Fast Delivery optimiza el proceso de entrega, ofreciendo una interfaz amigable tanto para los clientes como para el personal de entrega. El repositorio integra características clave como seguimiento de pedidos en tiempo real, optimización eficiente de rutas y procesamiento seguro de transacciones. Con un enfoque en mejorar la velocidad y la fiabilidad de las entregas, Fast Delivery proporciona un conjunto de herramientas completo para que la empresa gestione pedidos, monitoree el progreso de las entregas y optimice la logística. Este repositorio está diseñado para elevar la eficiencia y efectividad de los servicios de entrega proporcionados por la empresa.",
     stack: [
       { name: "Typescript" },
       { name: "MongoDB" },
