@@ -65,15 +65,15 @@ const MobileNav = () => {
             );
           })}
         </nav>
-        <div className="absolute bottom-0 left-0 right-0 flex flex-row justify-center items-center gap-8 mb-8">
+        {/* <div className="absolute bottom-0 left-0 right-0 flex flex-row justify-center items-center gap-8 mb-8">
           <div className="flex justify-center items-center">
             <h1 className="text-xl capitalize hover:text-accent transition-all">
               Theme
             </h1>
           </div>
-          {/* Aqui quiero incorporar un switch para el tema oscuro / claro */}
-          {/* <Switch /> */}
-        </div>
+          Aqui quiero incorporar un switch para el tema oscuro / claro
+          <Switch />
+        </div> */}
       </SheetContent>
     </Sheet>
   );
