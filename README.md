@@ -1,9 +1,3 @@
-Entendido, aquí tienes el README actualizado con tus datos y las correcciones:
-
----
-
-# Portfolio
-
 Este es el repositorio de mi portfolio personal, desarrollado utilizando Next.js 14, Tailwind CSS, Framer Motion, Shadcn/UI y Aceternity UI. El objetivo de este proyecto es mostrar mis habilidades y proyectos de una manera moderna y atractiva.
 
 ## Acerca de mí
@@ -95,7 +89,3 @@ Las contribuciones son bienvenidas. Si tienes alguna idea o encuentras algún pr
 ## Contacto
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [jose_moya@live.com.ar](mailto:jose_moya@live.com.ar) o [LinkedIn](https://www.linkedin.com/in/jbmoya/).
-
----
-
-Espero que este README cumpla con tus expectativas. Si necesitas agregar o cambiar algo más, no dudes en decírmelo.
