@@ -19,14 +19,14 @@ const services = [
     href: "/contact",
   },
   {
-    num: "04",
+    num: "03",
     title: "E-commerce    ",
     description:
       "Desarrollo de plataformas de comercio electrónico eficientes y seguras.",
     href: "/contact",
   },
   {
-    num: "05",
+    num: "04",
     title: "Single Page Aplication",
     description:
       "Creación de aplicaciones de página única rápidas y eficientes para mejorar la experiencia del usuario.",
