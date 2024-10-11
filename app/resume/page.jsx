@@ -24,20 +24,20 @@ import { motion } from "framer-motion";
 
 //about data
 const about = {
-  title: "Acerca de mi",
+  title: "Acerca de mí",
   description:
-    "Mis experiencias me han permitido desarrollar habilidades críticas como la gestión de equipos, la atención al cliente y la capacidad de liderar proyectos complejos. Estoy en constante interés en aprender más y seguir creciendo profesionalmente. Comparto mis datos de contacto para que podamos trabajar juntos y explorar nuevas oportunidades. No dudes en ponerte en contacto conmigo para discutir cómo puedo contribuir a tu equipo.",
+    "Mis experiencias me han permitido desarrollar habilidades críticas como la gestión de equipos, la atención al cliente y la capacidad de liderar proyectos complejos. Estoy en constante interés por aprender más y seguir creciendo profesionalmente. Comparto mis datos de contacto para que podamos trabajar juntos y explorar nuevas oportunidades. No dudes en ponerte en contacto conmigo para discutir cómo puedo contribuir a tu equipo.",
   info: [
     {
       fieldName: "Nombre",
-      fieldValue: "Jose Moya",
+      fieldValue: "José Moya",
     },
     {
       fieldName: "Nacionalidad",
       fieldValue: "Argentino",
     },
     {
-      fieldName: "Telefono",
+      fieldName: "Teléfono",
       fieldValue: "+549 3876109748",
     },
     {
@@ -46,14 +46,14 @@ const about = {
     },
     {
       fieldName: "Idiomas",
-      fieldValue: "Español, Ingles",
+      fieldValue: "Español, Inglés",
     },
   ],
 };
 
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title: " Mis experiencias",
+  title: "Mis experiencias", 
   description:
     "Aunque aún no tengo experiencia profesional en el ámbito de la programación, he acumulado una vasta experiencia en diversos roles de importancia en otras industrias. He demostrado mi compromiso, adaptabilidad y responsabilidad en cada uno de estos puestos. Mi trayectoria incluye:",
   items: [
@@ -63,23 +63,23 @@ const experience = {
       duration: "2019 - 2024",
     },
     {
-      company: "VidaMovil S.R.L.",
+      company: "VidaMóvil S.R.L.",
       position: "Jefe de producto",
       duration: "2016 - 2019",
     },
     {
-      company: "Centro Distribuidor del Norte S.A",
+      company: "Centro Distribuidor del Norte S.A.",
       position: "Supervisor de Expedición",
       duration: "2014 - 2016",
     },
     {
       company: "Centro de Contactos Salta S.A.",
-      position: "Asesor telefonico / Capacitador",
+      position: "Asesor telefónico / Capacitador",
       duration: "2011 - 2014",
     },
     {
       company: "Karam Automotores S.A.",
-      position: "Gerente post-venta",
+      position: "Gerente postventa",
       duration: "2007 - 2010",
     },
   ],
@@ -87,17 +87,17 @@ const experience = {
 
 const education = {
   icon: "/assets/resume/cap.svg",
-  title: "Mi educacion",
+  title: "Mi educación",
   description:
     "He estudiado en rubros variados para poder cooperar en distintas áreas. De estos estudios, destacan los siguientes:",
   items: [
     {
-      institution: "Escuela de comercio 5083",
-      degree: "Teoria y gestión de organizaciones",
+      institution: "Escuela de Comercio 5083",
+      degree: "Teoría y gestión de organizaciones",
       duration: "1998 - 2003",
     },
     {
-      institution: "F.A.P.A.S.A",
+      institution: "F.A.P.A.S.A.",
       degree: "Productor Asesor de Seguros",
       duration: "2018 - 2019",
     },
@@ -108,11 +108,64 @@ const education = {
     },
     {
       institution: "Universidad Siglo XXI",
-      degree: "Licenciado en Seguridad & Higiene",
-      duration: "2024 - Current",
+      degree: "Licenciado en Seguridad e Higiene",
+      duration: "2024 - Actualidad",
     },
   ],
 };
+
+const skills = {
+  title: "Mis habilidades",
+  description:
+    "Durante más de 800 horas, he estado aprendiendo y practicando estas tecnologías. Estoy constantemente actualizándome y mejorando mis habilidades para estar al día con las últimas tendencias y mejores prácticas en el desarrollo de software.",
+  skillList: [
+    {
+      icon: <FaJs />,
+      name: "javascript",
+    },
+    {
+      icon: <FaReact />,
+      name: "react.js",
+    },
+    {
+      icon: <FaNodeJs />,
+      name: "node.js",
+    },
+    {
+      icon: <SiTypescript />,
+      name: "typescript",
+    },
+    {
+      icon: <SiTailwindcss />,
+      name: "tailwind",
+    },
+    {
+      icon: <SiNextdotjs />,
+      name: "next.js",
+    },
+    {
+      icon: <SiMongodb />,
+      name: "mongoDB",
+    },
+    {
+      icon: <SiPostgresql />,
+      name: "postgres",
+    },
+    {
+      icon: <SiRedux />,
+      name: "redux",
+    },
+    {
+      icon: <SiExpress />,
+      name: "express",
+    },
+    {
+      icon: <SiGit />,
+      name: "git",
+    },
+  ],
+};
+
 
 const skills = {
   title: "Mis habilidades",
