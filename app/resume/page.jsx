@@ -166,59 +166,6 @@ const skills = {
   ],
 };
 
-
-const skills = {
-  title: "Mis habilidades",
-  description:
-    "Durante más de 800 horas, he estado aprendiendo y practicando estas tecnologías. Estoy constantemente actualizándome y mejorando mis habilidades para estar al día con las últimas tendencias y mejores prácticas en el desarrollo de software.",
-  skillList: [
-    {
-      icon: <FaJs />,
-      name: "javascript",
-    },
-    {
-      icon: <FaReact />,
-      name: "react.js",
-    },
-    {
-      icon: <FaNodeJs />,
-      name: "node.js",
-    },
-    {
-      icon: <SiTypescript />,
-      name: "typescript",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "tailwind",
-    },
-    {
-      icon: <SiNextdotjs />,
-      name: "next.js",
-    },
-    {
-      icon: <SiMongodb />,
-      name: "mongoDB",
-    },
-    {
-      icon: <SiPostgresql />,
-      name: "postgres",
-    },
-    {
-      icon: <SiRedux />,
-      name: "redux",
-    },
-    {
-      icon: <SiExpress />,
-      name: "express",
-    },
-    {
-      icon: <SiGit />,
-      name: "git",
-    },
-  ],
-};
-
 const Resume = () => {
   return (
     <motion.div
