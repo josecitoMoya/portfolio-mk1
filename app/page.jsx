@@ -46,7 +46,7 @@ const Home = () => {
                 variant="outline"
                 size="lg"
                 className="uppercase flex items-center gap-2"
-                href="/assets/cv/CV joseMoya (Spanish version).pdf"
+                href="/assets/cv/CV joseMoya Spanish version.pdf"
                 target="_blank"
               >
                 <span>Descargar CV</span>
