@@ -34,7 +34,7 @@ const projects = [
       { name: "ChakraUI" },
     ],
     image: "/assets/work/thumb1.png",
-    live: "",
+    live: "https://watcho-jm.netlify.app/",
     github: "https://github.com/josecitoMoya/TMDB-v3-back",
   },
   {
