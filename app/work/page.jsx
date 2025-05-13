@@ -6,7 +6,7 @@ import React, { useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 
-import { BsGithub } from "react-icons/bs";
+import { BsGithub, BsPlay } from "react-icons/bs";
 
 import {
   Tooltip,
@@ -28,8 +28,8 @@ const projects = [
       "Es un proyecto construido sobre la API de The Movie Database (TMDB), aprovechando su extensa colección de datos de películas y programas de televisión. Al utilizar la API de TMDB, el repositorio permite a los usuarios hacer solicitudes para obtener información detallada sobre películas, incluyendo detalles del elenco y equipo, fechas de lanzamiento, resúmenes de la trama y calificaciones. La integración con la API de TMDB mejora la funcionalidad del repositorio, proporcionando una manera perfecta para que los usuarios accedan e interactúen con una gran cantidad de contenido de entretenimiento.",
     stack: [
       { name: "Javascript" },
-      { name: "Postgres" },
-      { name: "JWT" },
+      // { name: "Postgres" },
+      // { name: "JWT" },
       { name: "ReactJS" },
       { name: "ChakraUI" },
     ],
@@ -52,7 +52,7 @@ const projects = [
       { name: "ChakraUI" },
     ],
     image: "/assets/work/thumb2.png",
-    live: "",
+    live: null,
     github: "https://github.com/josecitoMoya/MiPark",
   },
   {
@@ -71,7 +71,7 @@ const projects = [
       { name: "WooCommerce" },
     ],
     image: "/assets/work/thumb3.png",
-    live: "",
+    live: null,
     github: "https://github.com/josecitoMoya/blueHouse-backend",
   },
   {
@@ -88,7 +88,7 @@ const projects = [
       { name: "Tailwind" },
     ],
     image: "/assets/work/thumb4.png",
-    live: "",
+    live: null,
     github: "https://github.com/josecitoMoya/fast-delivery-back",
   },
 ];
@@ -141,9 +141,9 @@ const Work = () => {
               {/* boredes */}
               <div className="border border-white/20 "></div>
               {/* Botones */}
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-4 justify-around">
                 {/* Github */}
-                <Link href={project.github}>
+                <Link href={project.github} target="_blank">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -153,6 +153,18 @@ const Work = () => {
                     </Tooltip>
                   </TooltipProvider>
                 </Link>
+                {project.live && (
+                  <Link href={project.live} target="_blank">
+                    <TooltipProvider delayDuration={100}>
+                      <Tooltip>
+                        <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
+                          <BsPlay className="text-white text-3xl group-hover:text-accent" />
+                        </TooltipTrigger>
+                        <TooltipContent>Live preview</TooltipContent>
+                      </Tooltip>
+                    </TooltipProvider>
+                  </Link>
+                )}
               </div>
             </div>
           </div>
